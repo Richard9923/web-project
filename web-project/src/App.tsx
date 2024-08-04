@@ -1,7 +1,14 @@
 import Nav from "./components/Nav";
+import Conteudo from "./components/Conteudo";
 
 function App() {
-  return <h1><Nav /></h1>
+  return (
+    <div>
+        <h1><Nav /></h1>
+        <Conteudo />
+    </div>
+
+)
 }
 
 export default App;

@@ -1,10 +1,19 @@
-a {
+.link {
   color: black;
 }
+
+
+.link:hover {
+  color: rgb(83, 83, 83);
+ }
+
 
  * {
   list-style: none;
   text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
  }
 
  #nav {
@@ -12,6 +21,418 @@ a {
   justify-content: space-evenly;
  }
 
- .link:hover {
-  color: rgb(83, 83, 83);
- }
+
+
+
+ /* 390px - 430px */
+@media only screen and (min-width: 390px) and (max-width: 430px) {
+  /* Estilos para iPhone 13 e 14 series */
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    gap: 7px;
+  }
+
+  .link {
+    font-size: 0.8em;
+    color: white;
+  }
+
+  /* Estilo conteudo */ 
+
+  #sub-titulo-dev {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    margin: 4%;
+  }
+
+  #paragrafo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 5%;
+   }
+
+   /* lista de conhecimento */
+
+   #tec-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 12px;
+    padding: 5%;
+  
+  
+   }
+
+   #html {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #css {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+   }
+   #js {
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #node {
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+
+   }
+
+   #mongo {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(3, 244, 39);
+
+   }
+
+ 
+}
+
+@media only screen and (min-width: 360px) and (max-width: 412px) {
+  /* Estilos para Samsung Galaxy S21, S22, S23 */
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    gap: 7px;
+  }
+
+  .link {
+    font-size: 0.8em;
+    color: white;
+  }
+
+  #sub-titulo-dev {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    margin: 4%;
+  }
+
+  #paragrafo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 5%;
+   }
+
+   /* lista de conhecimento */
+
+   #tec-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 12px;
+    padding: 5%;
+  
+  
+   }
+
+   #html {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #css {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+   }
+   #js {
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #node {
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+
+   }
+
+   #mongo {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(3, 244, 39);
+
+   }
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 411px) {
+  /* Estilos para Google Pixel 6 e 7 series */
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    gap: 7px;
+  }
+
+  .link {
+    font-size: 0.8em;
+    color: white;
+  }
+
+  #sub-titulo-dev {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    margin: 4%;
+  }
+
+  #paragrafo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 5%;
+   }
+
+   /* lista de conhecimento */
+
+   #tec-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 12px;
+    padding: 5%;
+  
+  
+   }
+
+   #html {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #css {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+   }
+   #js {
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #node {
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+
+   }
+
+   #mongo {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(3, 244, 39);
+
+   }
+}
+
+
+
+
+/* tablets */ 
+
+/* 800px - 1280px */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  /* Estilos para Samsung Galaxy Tab S7 e S8 */
+  
+  #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    padding: 80px;
+    gap: 20px;
+  }
+
+  .link {
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .conhecimento {
+    padding-left: 10%;
+  }
+
+  /* conteudo */
+
+  #sub-titulo-dev {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin: 4%;
+  }
+
+  #paragrafo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 5%;
+   }
+
+   /* lista de conhecimento */
+
+   #tec-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3em;
+    gap: 20px;
+    padding: 5%;
+  
+  
+   }
+
+   #html {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #css {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+   }
+   #js {
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+   }
+   #node {
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+
+   }
+
+   #mongo {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(3, 244, 39);
+
+   }
+
+}
+
+/* 820px - 1080px */
+@media only screen and (min-width: 820px) and (max-width: 1080px) {
+  /* Estilos para iPad Air e iPad 10.2" */
+
+  #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    padding: 80px;
+    gap: 20px;
+  }
+
+  .link {
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .conhecimento {
+    padding-left: 20%;
+  }
+}
+
+/* 1024px - 1366px */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  /* Estilos para iPad Pro 12.9" */
+
+  #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    padding: 80px;
+    gap: 20px;
+  }
+
+  .link {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .conhecimento {
+    padding-left: 20%;
+  }
+
+
+}
+
+
