@@ -10,7 +10,7 @@ function Nav () {
             <li className="nav"><a href="#" className="link">Sobre</a></li>
             <li className="nav"><a href="#" className="link">Contato</a></li>
             <li className="nav"><a href="#" className="link">Conhecimento</a></li>
-    </ul>
+        </ul>
     );
 
 }
