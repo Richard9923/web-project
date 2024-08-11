@@ -3,6 +3,7 @@ import Sobre from './paginas/Sobre';
 
 
 
+
 function Nav () {
     
     return (
@@ -20,6 +21,17 @@ function Nav () {
         </Routes>
         </Router>
     );
+
+    function MainContent() {
+        const location = useLocation();
+      
+        return (
+          <div>
+            {location.pathname === '/sobre' && <Sobre />} {'/sobre'}
+          </div>
+        )
+      }
+      
 
 }
 

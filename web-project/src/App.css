@@ -587,7 +587,7 @@
   #sub-titulo-dev {
     display: flex;
     justify-content: center;
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 4%;
   }
 
@@ -595,13 +595,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 1%;
    }
 
 
   .link {
-    font-size: 1.5em;
+    font-size: 2em;
     color: white;
   }
 
