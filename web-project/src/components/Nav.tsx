@@ -22,16 +22,6 @@ function Nav () {
         </Router>
     );
 
-    function MainContent() {
-        const location = useLocation();
-      
-        return (
-          <div>
-            {location.pathname === '/sobre' && <Sobre />} {'/sobre'}
-          </div>
-        )
-      }
-      
 
 }
 
